@@ -1,0 +1,73 @@
+﻿<Window x:Class="Cellular_Automaton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cellular Automaton" Height="700" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Border Grid.Column="0" Background="SeaGreen">
+            <Border Background="White" Width="500" Height="500">
+                <Image x:Name="mainImage" Width="500" Height="500"></Image>
+            </Border>
+        </Border>
+        <Border Grid.Column="1" 
+                Background="Lavender" BorderThickness="2 0 0 2" 
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+            <StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Grid Margin="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Margin="5" Content="Размер Вселенной: "/>
+                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txt_universeSize" Margin="5" TextWrapping="Wrap" Text="" />
+                        <Label Grid.Row="1" Grid.Column="0" Margin="5" Content="Размер клетки: "/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txt_cellSize" Margin="5" TextWrapping="Wrap" Text="" TextChanged="txt_cellSize_TextChanged" />
+                    </Grid>
+                </StackPanel>
+                <Button x:Name="btn_clear"
+                        Background="MediumTurquoise" Foreground="Black" 
+                        FontSize="14" 
+                        Content="Clear" Height="30" Margin="10" />
+                <Button x:Name="btn_fill" Click="btn_fill_Click"
+                        Background="MediumTurquoise" Foreground="Black"
+                        FontSize="14" 
+                        Content="Fill" Height="30" Margin="10" />
+                <Button x:Name="btn_fill_1" Click="btn_fill_Click_1"
+                        Background="MediumTurquoise" Foreground="Black"
+                        FontSize="14" 
+                        Content="Fill(Glider)" Height="30" Margin="10" />
+                <Button x:Name="btn_start" Click="btn_start_Click"
+                        Background="MediumTurquoise" Foreground="Black" 
+                        FontSize="14" 
+                        Content="Start" Height="30" Margin="10" />
+                <Button x:Name="btn_pause" Click="btn_pause_Click"
+                        Background="MediumTurquoise" Foreground="Black" 
+                        FontSize="14" 
+                        Content="Pause" Height="30" Margin="10" />
+                <Button x:Name="btn_stop" Click="btn_stop_Click"
+                        Background="MediumTurquoise" Foreground="Black" 
+                        FontSize="14" 
+                        Content="Stop" Height="30" Margin="10" />
+                <StackPanel Orientation="Vertical">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Content="Поколение №: "/>
+                        <TextBox x:Name="txt_generations" Grid.Column="1" TextWrapping="Wrap" Text="" />
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

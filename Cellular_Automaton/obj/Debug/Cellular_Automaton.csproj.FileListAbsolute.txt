@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\bin\Debug\Cellular_Automaton.exe.config
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\bin\Debug\Cellular_Automaton.exe
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\bin\Debug\Cellular_Automaton.pdb
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\MainWindow.baml
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\MainWindow.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\App.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton_MarkupCompile.cache
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.g.resources
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.exe
+c:\users\user\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\Cellular_Automaton.pdb
+C:\Users\User\documents\visual studio 2012\Projects\Cellular_Automaton\Cellular_Automaton\obj\Debug\GeneratedInternalTypeHelper.g.cs
